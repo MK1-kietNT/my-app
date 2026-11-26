@@ -193,7 +193,7 @@ export function WeatherCard({ defaultExpanded = false }: { defaultExpanded?: boo
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Nhập tên quận/thành phố (vd: Hà Nội, Đà Nẵng)..."
-                className="flex-1 rounded-xl bg-slate-100 px-3 py-1.5 text-xs text-slate-900 outline-none focus:ring-2 focus:ring-sky-500"
+                className="min-w-0 flex-1 rounded-xl bg-slate-100 px-3 py-1.5 text-xs text-slate-900 outline-none focus:ring-2 focus:ring-sky-500"
               />
               <button
                 type="submit"

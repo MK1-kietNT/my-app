@@ -335,7 +335,7 @@ export function ChatTab({
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder={listening ? 'Đang nghe bạn nói...' : 'Hỏi hoặc tâm sự với trợ lý AI...'}
-          className="flex-1 rounded-2xl bg-white px-3.5 py-2.5 text-[13px] text-slate-900 placeholder:text-slate-400 shadow-sm ring-1 ring-slate-900/8 outline-none focus:ring-2 focus:ring-indigo-500/50"
+          className="min-w-0 flex-1 rounded-2xl bg-white px-3.5 py-2.5 text-[13px] text-slate-900 placeholder:text-slate-400 shadow-sm ring-1 ring-slate-900/8 outline-none focus:ring-2 focus:ring-indigo-500/50"
         />
 
         <button

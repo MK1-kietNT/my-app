@@ -203,7 +203,7 @@ export function App() {
 
         {/* Colorful Quick Input Bar */}
         <form onSubmit={handleQuickSubmit} className="relative flex items-center gap-1.5">
-          <div className="relative flex-1 flex items-center">
+          <div className="relative flex min-w-0 flex-1 items-center">
             <Sparkles className="pointer-events-none absolute left-3.5 h-4 w-4 text-emerald-500" />
             <input
               value={quickText}
